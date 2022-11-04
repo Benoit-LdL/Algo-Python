@@ -32,7 +32,7 @@ print("Bravo, la valeur recherchée est bien " + str(x))
 
 ''' EX 3 : Les chaines
 ############
-
+'''
 voyelles = ['a','e','i','o','u','y']
 nombre_voyelles, nombre_consonnes = 0,0
 out = ""
@@ -100,7 +100,7 @@ print("Nombre de voyelles: " + str(nombre_voyelles))
 print("Nombre de voyelles: " + str(nombre_consonnes))
 print("Liste d'occurences: " + str(liste_occurences))
 print("Palindrome: " + str(not_palidrome))
-'''
+#'''
 
 ''' EX 4 : Les listes
 ############
