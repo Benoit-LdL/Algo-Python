@@ -97,7 +97,7 @@ for i in range(0,half):
 
 print("Nouveau mot: " + out)
 print("Nombre de voyelles: " + str(nombre_voyelles))
-print("Nombre de voyelles: " + str(nombre_consonnes))
+print("Nombre de consonnes: " + str(nombre_consonnes))
 print("Liste d'occurences: " + str(liste_occurences))
 print("Palindrome: " + str(not_palidrome))
 #'''
