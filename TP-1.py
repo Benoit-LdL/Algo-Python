@@ -1,7 +1,6 @@
-# -*- coding: utf-8 -*-
-
 ''' EX 1 : Prise en main
 ############
+'''
 total = 0
 number = int(input("donnez un chiffre:"))
 
@@ -10,10 +9,11 @@ while number != 0:
     number = int(input("donnez un autre chiffre [" + str(total) + "] (0 pour arreter) : "))
 
 print("le total est " + str(total))
-'''
 
 ''' EX 2  : Entrées_sorties
 ############
+'''
+
 
 from random import randint
 x = randint(0,100)
@@ -28,7 +28,7 @@ while value_in != x:
         value_in = int(input("la valeur recherchée est plus grande:"))
 
 print("Bravo, la valeur recherchée est bien " + str(x))
-'''
+
 
 ''' EX 3 : Les chaines
 ############
@@ -104,7 +104,7 @@ print("Palindrome: " + str(not_palidrome))
 
 ''' EX 4 : Les listes
 ############
-
+'''
 liste_entiers = [1,2,3,4,5,5,6,7,7,8,9]
 
 #### 1.
@@ -228,7 +228,6 @@ compare(liste_entiers,liste2)
 
 #print("DEBUG| " + str(suff_list[i]) + " -- " + str(main_list[i+ ( len(main_list) - len(suff_list) ) ]))
 #print("DEBUG| " + str(i))
-'''
 
 ''' EX 5: EX 4 en Recursif
 ############

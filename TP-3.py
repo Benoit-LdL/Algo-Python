@@ -85,8 +85,8 @@ this_file   = open("9-nov.py",'r')
 
 # 2.6
 line_counter = 0
-fichier_pair    = open("9-nov_pairs.py",'w')
-fichier_impair  = open("9-nov_impairs.py",'w')
+fichier_pair    = open("TP-3_pairs.py",'w')
+fichier_impair  = open("TP-3_impairs.py",'w')
 
 for line in this_file:
     line_counter += 1
